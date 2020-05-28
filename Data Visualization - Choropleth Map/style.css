@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+body {
+  background-color: black;
+  color: white;
+  padding: 20px !important;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+#title {
+  text-align: center;
+}
+
+#container {
+  padding: 0px 0px;
+  text-align: center;
+}
+
+#tooltip {
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  font-size: 10px;
+  background: rgb(61, 61, 61);
+  color: white;
+  pointer-events: none;
+  padding: 10px;
+  border-radius: 5px;
+}
